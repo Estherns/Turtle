@@ -1,0 +1,13 @@
+import turtle
+
+flower = turtle.Turtle()
+
+#give color to our turtle
+flower.color("blue")
+
+
+for i in range(39):
+  flower.forward(200)
+  flower.left(161)
+  
+flower.done()
